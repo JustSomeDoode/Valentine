@@ -29,7 +29,7 @@ body {
 }
 
 button {
-    padding: 60px 20px; /* Set padding for buttons */
+    padding: 10px 20px; /* Set padding for buttons */
     margin: 5px 10px; /* Set margin around buttons */
     font-size: 50px; /* Set font size for buttons */
     font-family: 'Schoolbell', cursive; /* Apply Schoolbell font to the options */
