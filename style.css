@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif; /* Fallback font family */
     text-align: center; /* Center-align text */
     margin: 0; /* Remove default margin */
-    background-color: #FADADD; /* Set background color to light pink */
+    background-color: #FFFFFF; /* Set background color to light pink */
 }
 
 #container {
@@ -12,7 +12,7 @@ body {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-align items horizontally */
     justify-content: center; /* Center-align items vertically */
-    height: 100vh; /* Make the container full viewport height */
+    height: 70vh; /* Make the container full viewport height */
 }
 
 #image-container {
@@ -25,14 +25,14 @@ body {
 }
 
 #options {
-    margin-top: 20px; /* Add space above the options */
+    margin-top: 50px; /* Add space above the options */
 }
 
 button {
-    padding: 10px 20px; /* Set padding for buttons */
-    margin: 0 10px; /* Set margin around buttons */
+    padding: 20px 20px; /* Set padding for buttons */
+    margin: 55px 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */
-    font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
+    font-family: 'Schoolbell', cursive; /* Apply Schoolbell font to the options */
     background-color: #FB607F; /* Set button background color */
     color: white; /* Set text color to white */
     border: none; /* Remove button border */
