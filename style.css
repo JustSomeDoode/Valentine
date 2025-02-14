@@ -12,7 +12,7 @@ body {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-align items horizontally */
     justify-content: center; /* Center-align items vertically */
-    height: 70vh; /* Make the container full viewport height */
+    height: 90vh; /* Make the container full viewport height */
 }
 
 #image-container {
@@ -29,8 +29,8 @@ body {
 }
 
 button {
-    padding: 20px 20px; /* Set padding for buttons */
-    margin: 55px 10px; /* Set margin around buttons */
+    padding: 60px 20px; /* Set padding for buttons */
+    margin: 80px 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */
     font-family: 'Schoolbell', cursive; /* Apply Schoolbell font to the options */
     background-color: #FB607F; /* Set button background color */
