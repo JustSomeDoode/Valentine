@@ -28,7 +28,7 @@ function flashRainbowColors(callback) {
     var interval = setInterval(function() {
         document.body.style.backgroundColor = colors[i];
         i = (i + 1) % colors.length;
-    }, 350); // Change color every 350 milliseconds
+    }, 150); // Change color every 350 milliseconds
 
     setTimeout(function() {
         clearInterval(interval);
