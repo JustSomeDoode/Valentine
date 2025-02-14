@@ -12,7 +12,7 @@ body {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-align items horizontally */
     justify-content: center; /* Center-align items vertically */
-    height: 90vh; /* Make the container full viewport height */
+    height: 100vh; /* Make the container full viewport height */
 }
 
 #image-container {
@@ -30,10 +30,10 @@ body {
 
 button {
     padding: 60px 20px; /* Set padding for buttons */
-    margin: 80px 10px; /* Set margin around buttons */
-    font-size: 26px; /* Set font size for buttons */
+    margin: 5px 10px; /* Set margin around buttons */
+    font-size: 50px; /* Set font size for buttons */
     font-family: 'Schoolbell', cursive; /* Apply Schoolbell font to the options */
-    background-color: #FB607F; /* Set button background color */
+    background-color: #b19be5; /* Set button background color */
     color: white; /* Set text color to white */
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
