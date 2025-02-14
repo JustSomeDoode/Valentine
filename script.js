@@ -1,10 +1,8 @@
-// script.js
-
 // Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'yes') {
-        // Flash rainbow colors
+        // Flash periwinkle purple and white colors
         flashRainbowColors(function() {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
@@ -15,7 +13,7 @@ function selectOption(option) {
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
-        var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
+        var newSize = parseFloat(currentFontSize) * 2; // Increase font size by 2x
         yesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Yes" nor "No" was clicked, show an alert message
@@ -23,14 +21,15 @@ function selectOption(option) {
     }
 }
 
-// Function to flash rainbow colors and then execute a callback function
+// Function to flash periwinkle purple and white colors and then execute a callback function
 function flashRainbowColors(callback) {
-    var colors = ['#ffffff', '#b19be5'];
+    var colors = ['#ffffff', '#b19be5']; // White and periwinkle purple
     var i = 0;
     var interval = setInterval(function() {
         document.body.style.backgroundColor = colors[i];
         i = (i + 1) % colors.length;
-    }, 350); // Change color every 200 milliseconds
+    }, 350); // Change color every 350 milliseconds
+
     setTimeout(function() {
         clearInterval(interval);
         document.body.style.backgroundColor = ''; // Reset background color
